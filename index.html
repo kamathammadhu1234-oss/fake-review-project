@@ -92,7 +92,7 @@ async function checkReview() {
     result.style.color = "black";
 
     try {
-        let response = await fetch("http://127.0.0.1:5000/predict", {
+        let response = await fetch("http://fake-review-api-24y0.onrender.com/predict", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
